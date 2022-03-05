@@ -1,0 +1,34 @@
+[
+{
+    "imagen":"/Admin/Images/torreCondor.jpeg",
+    "nombre":"Torre del Condor(JSON)",
+    "codigo":"390",
+    "tipoPropiedad":"Casa",
+    "ambientes":"3",
+    "tipoOperacion":"Venta",
+    "descripcion":"Hermosa casa en Zona Parque",
+    "precio":"150.000"
+},
+{
+    "imagen":"/Admin/Images/torreMaipu.jpeg",
+    "nombre":"Torre Maipu(JSON)",
+    "codigo":"280",
+    "tipoPropiedad":"Departamento",
+    "ambientes":"2",
+    "tipoOperacion":"Alquiler",
+    "descripcion":"Departamento Centrico muy amplio",
+    "precio":"45.000"
+},
+{
+    "imagen":"/Admin/Images/torreMitre.jpeg",
+    "nombre":"Torre Mitre(JSON)",
+    "codigo":"570",
+    "tipoPropiedad":"Casa",
+    "ambientes":"4",
+    "tipoOperacion":"Venta",
+    "descripcion":"Hermosa casa en Zona Barrio Norte",
+    "precio":"350.000"
+}
+
+
+]

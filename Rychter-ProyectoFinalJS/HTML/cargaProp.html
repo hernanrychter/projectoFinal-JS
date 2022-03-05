@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>CARGA DE PROPIEDADES</h1>
+    <form action="" class="form-carga" id="formProp">
+        Nombre: <input type="text" id="nombreProp">
+        ID: <input type="text" id="id">
+        Tipo Operacion: <select name="" id="tipoOperacion">
+            <option value=""></option>
+            <option value="">venta</option>
+            <option value="">alquiler</option>
+        </select>
+        Tipo Propiedad: <select name="" id="tipoPropiedad">
+            <option value=""></option>
+            <option value="">casa</option>
+            <option value="">departamento</option>
+            <option value="">oficina</option>
+            <option value="">local</option>
+            <option value="">campo</option>
+            <option value="">cochera</option>
+        </select>
+        Ambientes: <select name="" id="cantAmbientes">
+            <option value=""></option>
+            <option value="">0</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">>4</option>
+        </select>
+        Precio: <input type="number" id="precio">
+        Descripcion: <input type="text" id="descripcion">
+        Imagen: <input type="text" id="rutaImangen">
+        <div class="botones">
+        <button id="btn_crear">Guardar</button>
+        <button id="btn_borrar">Borrar</button>
+    </div>
+    </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="inmuebles.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

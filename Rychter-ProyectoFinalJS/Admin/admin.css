@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ color: rgb(168, 44, 168);
+ width: 100%;
+ 
+}
+
+
+.form-container{
+display: flex;
+flex-direction: column;
+width: 400px;
+height: auto;
+border-radius: 10px;
+margin: 0 auto;
+padding: 10px;
+margin-top: 40px;
+box-shadow: 0px 10px 40px rgba(3,19,23,0.25);
+
+}
+
+#formProp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3px;
+}
+
+.card-text{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-style: italic;
+    
+}
+
+input, select{
+    background-color: rgb(150, 149, 149);
+    border-radius: 10px;
+}
+
+#btn_crear{
+    background-color: rgb(168, 44, 168);
+    font-size: 15px;
+    color: white;
+}
+#btn_crear:hover, #btn_borrar:hover{
+   box-shadow: black 2px 1px 10px;
+}
+
+#btn_borrar{
+    background-color: gray;
+    font-size: 15px;
+    color: white;
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 40px;
+    
+   }
+
+#inmueblesVenta{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px 0px 30px;
+    justify-items:center;
+    background-color:rgb(168, 44, 168);
+    opacity: 0.9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#inmueblesAlquiler {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px 0px 30px;
+    justify-items:center;
+    background-color:rgb(168, 44, 168);
+    opacity: 0.9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+#inmueble{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Edicion de la CARD */
+.card-precio{
+  font-weight: 600;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 10px 40px rgba(3,19,23,0.25);
+}
+
+.btn-primary{
+    background-color: rgba(85, 82, 82, 0.493);
+    border-color: black;
+    box-shadow: 0px 1px 10px rgba(3,19,23,0.25);
+}
+
+.btn-primary:hover {
+    background-color:black;
+    
+}
+
+
+
+/* Boton Eliminar oculto para borrar la card (baja inmueble) */
+    .eliminar{
+    background-color: rgb(151, 14, 14);
+    position: relative;
+    width: 100%;
+    color: white;
+    opacity: 0.9;
+    display: none;
+    }
+
+/* Boton JSON */
+.ctn-json{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+   
+}
+
+
