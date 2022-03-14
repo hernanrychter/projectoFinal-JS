@@ -1,6 +1,6 @@
 # JAVASCRIPT
 Final project approved in the JavaScript subject of the Full Stack Developer career of Coder House
-Going ahead with the same prior idea of the web developed by myself in the first subjet (Web Develoment) of the career, I added JavaScript to include and Admin page to add or remove real state products, updating the principal web (final client) through Local Storage. 
+Continuing with the same prior idea of the web developed subjet of the career, I added JavaScript to include and Admin page in order to add or remove real state products, updating the principal web (final client) through Local Storage. 
 Then, I let you the actual web page of the company in order to compare the advance of the new one. 
 LINK => http://www.inmobiliariarychter.com.ar
 
